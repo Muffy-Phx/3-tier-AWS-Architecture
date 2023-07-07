@@ -19,7 +19,6 @@ module "db" {
 
 
   tags = {
-    Owner= "mufaddal.suratwala@intuitive.cloud"
     Name = "${var.tag_name}-DB"
   }
 
