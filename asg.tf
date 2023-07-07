@@ -24,7 +24,6 @@ module "asg" {
 
     tags = {
       Name = "${var.tag_name} EC2"
-      Owner="mufaddal.suratwala@intuitive.cloud"
     }
   }]
  
