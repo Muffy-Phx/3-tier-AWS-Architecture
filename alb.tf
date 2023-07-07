@@ -51,7 +51,6 @@ module "alb" {
 
   tags = {
     Name="${var.tag_name}-alb"
-    Owner="mufaddal.suratwala@intuitive.cloud"
   }
  
 }
